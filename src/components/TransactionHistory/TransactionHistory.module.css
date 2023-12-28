@@ -1,4 +1,4 @@
-.containerTransaction {
+.transactionHistoryContainer {
   margin-top: 150px;
   margin-bottom: 50px;
   width: 1000px;
@@ -12,13 +12,13 @@
   overflow: hidden;
 }
 
-.transactionTitle {
+.transactionHistoryTitle {
   text-align: center;
   color: rgb(92, 86, 86);
 }
 
 thead {
-  background-color: #448be1;
+  background-color: #6ed5e1;
   text-transform: uppercase;
   color: #f0f0f0;
 }

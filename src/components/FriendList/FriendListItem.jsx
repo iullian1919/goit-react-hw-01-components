@@ -7,16 +7,20 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
     avatar || 'https://cdn-icons-png.flaticon.com/512/2922/2922506.png';
 
   return (
-    <li className={styles.item}>
-      <span className={isOnline ? styles.online : styles.offline}></span>
+    <li className={styles.friendListItem}>
+      <span
+        className={
+          isOnline ? styles.friendListOnline : styles.friendListOffline
+        }
+      ></span>
       <img
-        className={styles.avatar}
+        className={styles.friendListAvatar}
         src={avatarSrc}
         alt="User avatar"
         width="70"
         height="70"
       />
-      <p className={styles.name}>{name}</p>
+      <p className={styles.friendListName}>{name}</p>
     </li>
   );
 };

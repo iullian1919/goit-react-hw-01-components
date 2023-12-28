@@ -6,12 +6,12 @@ const Statistics = ({ title, stats }) => {
   title = 'Upload stats';
   return (
     <section className={styles.statistics}>
-      {title && <h2 className={styles.title}>{title}</h2>}
-      <ul className={styles.statList}>
+      {title && <h2 className={styles.statisticsTitle}>{title}</h2>}
+      <ul className={styles.statisticsList}>
         {stats.map(({ id, label, percentage }) => (
-          <li key={id} className={styles.item}>
-            <span className={styles.label}>{label}</span>
-            <span className={styles.percentage}>{percentage}%</span>
+          <li key={id} className={styles.statisticsItem}>
+            <span className={styles.statisticsLabel}>{label}</span>
+            <span className={styles.statisticsPercentage}>{percentage}%</span>
           </li>
         ))}
       </ul>

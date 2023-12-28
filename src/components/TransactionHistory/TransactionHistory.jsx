@@ -5,8 +5,8 @@ import styles from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <div className={styles.containerTransaction}>
-      <h1 className={styles.transactionTitle}>Internet Banking</h1>
+    <div className={styles.transactionHistoryContainer}>
+      <h1 className={styles.transactionHistoryTitle}>Internet Banking</h1>
       <table className={styles.transactionHistory}>
         <thead>
           <tr>

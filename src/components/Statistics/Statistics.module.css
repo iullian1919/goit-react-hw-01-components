@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 
-.title {
+.statisticsTitle {
   font-family: Arial;
   font-size: 28px;
   font-weight: 500;
@@ -17,24 +17,24 @@
   padding: 60px 60px;
 }
 
-.stat_list {
+.statisticsList {
   display: flex;
   padding: 0;
 }
 
-.item {
+.statisticsItem {
   display: flex;
   flex-direction: column;
   box-shadow: 0px 1px 1px 0px #00000040;
   padding: 30px 50px;
 }
 
-.label {
+.statisticsLabel {
   color: white;
   font-size: 18px;
 }
 
-.percentage {
+.statisticsPercentage {
   color: white;
   font-size: 28px;
   padding-top: 10px;

@@ -1,0 +1,42 @@
+.containerTransaction {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  width: 1000px;
+}
+
+.transactionHistory {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.transactionTitle {
+  text-align: center;
+  color: rgb(92, 86, 86);
+}
+
+thead {
+  background-color: #448be1;
+  text-transform: uppercase;
+  color: #f0f0f0;
+}
+
+tbody {
+  background-color: #fff;
+  color: darkgray;
+  text-transform: capitalize;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+  color: darkgrey;
+}
+
+td,
+th {
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 1px 1px 0px #00000040;
+}

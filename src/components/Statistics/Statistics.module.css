@@ -1,12 +1,12 @@
 .statistics {
-  margin-top: 100px;
+  margin-top: 150px;
   box-shadow: 0px 4px 10px 0px #00000040;
   width: 612px;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .title {
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
   font-family: Arial;
   font-size: 28px;
   font-weight: 500;

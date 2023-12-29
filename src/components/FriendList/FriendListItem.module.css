@@ -1,7 +1,7 @@
 .friendListItem {
   display: flex;
   align-items: center;
-  padding: 8px 5px;
+  padding: 20px 5px;
   border-radius: 1px;
   box-shadow: 1px 1px 1px 2px #00000040;
 }
